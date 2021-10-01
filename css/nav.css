@@ -1,0 +1,19 @@
+.menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+
+}
+.menu a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #E1FCFF;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5887FF;
+    border-bottom: 5px solid orange;
+}
+.menu li {
+    float: left;
+
+}
