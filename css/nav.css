@@ -1,3 +1,8 @@
+#page-title {
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
 .menu {
     list-style-type: none;
     padding-left: 0;
@@ -10,10 +15,11 @@
     color: #E1FCFF;
     display: inline-block;
     padding: 10px 20px;
-    background-color: #5887FF;
-    border-bottom: 5px solid orange;
+    background-color: #226591;
+    border-bottom: 5px solid #D89715;
 }
 .menu li {
     float: left;
-
+    padding-left: 2px;
+    padding-right: 2px;
 }
