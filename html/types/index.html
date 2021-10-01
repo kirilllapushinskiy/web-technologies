@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="schotcut icon" href="https://img.icons8.com/color/48/000000/python--v1.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="../../css/nav.css">
+    <link rel="stylesheet" href="../../css/body.css">
+    <link rel="stylesheet" href="../../css/article.css">
+    <link rel="stylesheet" href="../../css/table.css">
+    <title>Типы и конструкции</title>
+</head>
+<body>
+<header>
+    <h1 id="page-title">Язык Python</h1>
+    <nav class="nav">
+        <ul class="menu">
+            <li><a href="../">Главная</a></li>
+            <li><a href="">Типы и структуры данных</a></li>
+            <li><a href="/">Встроенные функции</a></li>
+            <li><a href="/">Дополнительно</a></li>
+            <li><a href="/">Пакеты</a></li>
+            <li><a href="/">История языка</a></li>
+        </ul>
+    </nav>
+</header>
+<article>
+        Python поддерживает динамическую типизацию, то есть тип переменной определяется только во время исполнения. Поэтому вместо «присваивания значения переменной» лучше говорить о «связывании значения с некоторым именем». К примитивным типам в Python относятся булевый, целое число произвольной точности, число с плавающей запятой и комплексное число. Из контейнерных типов в Python встроены: строка, список, кортеж, словарь и множество.
+        <div id="table-div">
+            <table class="table">
+            <tr class="table-main-title">
+                <th id="desc" colspan="2">Описание</th>
+                <th id="example" colspan="2" rowspan="2">Пример</th>
+            </tr>
+            <tr class="table-sub-title">
+                <th id="type">Тип</th>
+                <th id="var">Изменяемость</th>
+            </tr>
+            <tr>
+                <td><code>set</code></td>
+                <td rowspan="3">Изменяемый</td>
+                <td colspan="2"><code>{4.0, 'string', True}</code></td>
+            </tr>
+            <tr>
+                <td><code>dict</code></td>
+<!--                <td>Изменяемый</td>-->
+                <td colspan="2"><code>{'key1': 1.0, 3: False}</code></td>
+            </tr>
+            <tr>
+                <td><code>list</code></td>
+<!--                <td>Изменяемый</td>-->
+                <td colspan="2"><code>[4.0, 'string', True]</code></td>
+            </tr>
+            <tr>
+                <td><code>ellipsis</code></td>
+                <td rowspan="8">Неизменяемый</td>
+                <td colspan="2"><code>...</code></td>
+            </tr>
+            <tr>
+                <td><code>float</code></td>
+<!--                <td>Неизменяемый</td>-->
+                <td colspan="2"><code>1.414</code></td>
+            </tr>
+            <tr>
+                <td><code>int</code></td>
+<!--                <td>Неизменяемый</td>-->
+                <td colspan="2"><code>42</code></td>
+            </tr>
+            <tr>
+                <td><code>bool</code></td>
+<!--                <td>Неизменяемый</td>-->
+                <td><code>True</code></td>
+                <td><code>False</code></td>
+            </tr>
+            <tr>
+                <td><code>NoneType</code></td>
+<!--                <td>Неизменяемый</td>-->
+                <td colspan="2"><code>None</code></td>
+            </tr>
+            <tr>
+                <td><code>range</code></td>
+<!--                <td>Неизменяемый</td>-->
+                <td colspan="2"><code>range(10, -5, -2)</code></td>
+            </tr>
+            <tr>
+                <td><code>str</code></td>
+<!--                <td>Неизменяемый</td>-->
+                <td colspan="2"><code>"Hello, World!"</code></td>
+            </tr>
+            <tr>
+                <td><code>tuple</code></td>
+<!--                <td>Неизменяемый</td>-->
+                <td colspan="2"><code>(4.0, 'string', True)</code></td>
+            </tr>
+
+
+        </table></div>
+        Все значения являются объектами, в том числе функции, методы, модули, классы. Добавить новый тип можно либо написав
+        класс (class), либо определив новый тип в модуле расширения (например, написанном на языке C). Система классов
+        поддерживает наследование (одиночное и множественное) и метапрограммирование. Возможно наследование от большинства
+        встроенных типов и типов расширений.
+</article>
+</body>
+</html>

@@ -4,10 +4,10 @@ body article {
     background-color: #2a5582;
 }
 
-body article p {
+body article {
     color: honeydew;
     font-family: sans-serif;
     text-align: justify;
     font-size: larger;
-    padding: 0 10px;
+    padding: 10px 20px;
 }

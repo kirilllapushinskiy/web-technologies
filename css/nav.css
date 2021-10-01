@@ -5,9 +5,8 @@
 
 .menu {
     list-style-type: none;
-    padding-left: 0;
-    margin-left: 0;
-
+    margin: 0 auto;
+    padding: 0;
 }
 .menu a {
     text-decoration: none;
@@ -22,5 +21,5 @@
     float: left;
     padding-left: 2px;
     padding-right: 2px;
-    font-size: larger;
+    font-size: medium;
 }

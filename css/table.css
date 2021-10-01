@@ -1,0 +1,53 @@
+#table-div {
+    float: right;
+    word-wrap: normal;
+    padding: 15px;
+}
+
+table {
+    display: inherit;
+    background-color: #226591;
+    table-layout: fixed;
+    font-family: sans-serif;
+    font-size: 14px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table code {
+    background-color: steelblue;
+    margin: 2px;
+}
+
+td, th {
+    padding: 5px;
+}
+
+tr {
+    border-bottom: 2px solid whitesmoke;
+}
+
+td {
+    border: 2px solid whitesmoke;
+}
+
+.table-main-title, .table-sub-title {
+    color: whitesmoke;
+    text-align: center;
+    border-spacing: 2px;
+    border: 2px solid whitesmoke;
+}
+
+.table-main-title th, .table-sub-title th {
+    border-collapse: collapse;
+    border-spacing: 2px;
+}
+
+.table-sub-title {
+    border-bottom: 4px solid darkorange;
+}
+
+#example, #var {
+    border-left: 1px dashed whitesmoke;
+}
+
