@@ -1,0 +1,8 @@
+body article {
+    display: inline-block;
+}
+
+body article p {
+    color: honeydew;
+    font-family: sans-serif;
+}
