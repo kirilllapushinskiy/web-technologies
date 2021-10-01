@@ -1,8 +1,13 @@
 body article {
     display: inline-block;
+    margin-top: 20px;
+    background-color: #2a5582;
 }
 
 body article p {
     color: honeydew;
     font-family: sans-serif;
+    text-align: justify;
+    font-size: larger;
+    padding: 0 10px;
 }
