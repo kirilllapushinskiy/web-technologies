@@ -1,0 +1,31 @@
+body footer {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #2a5582;
+    width: 96%;
+    margin-bottom: 25px;
+}
+
+body footer {
+    color: honeydew;
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: larger;
+    padding: 10px 20px;
+}
+
+body footer .footer-block {
+    display: inline-block;
+    float: right;
+    font-family: monospace;
+    font-size: 24px;
+}
+
+body footer a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+body footer a:hover {
+    color: orange;
+}
