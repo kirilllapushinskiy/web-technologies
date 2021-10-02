@@ -1,0 +1,7 @@
+#image-list {
+    list-style-image: url("https://img.icons8.com/color/16/000000/cloud-function.png");
+}
+
+.image-list li {
+    margin: 10px;
+}

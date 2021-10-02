@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="../../css/nav.css">
     <link rel="stylesheet" href="../../css/body.css">
     <link rel="stylesheet" href="../../css/article.css">
-    <link rel="stylesheet" href="../../css/table.css">
+    <link rel="stylesheet" href="../../css/types-table.css">
+    <link rel="stylesheet" href="../../css/types-list.css">
     <title>Типы и конструкции</title>
 </head>
 <body>
@@ -16,7 +17,7 @@
         <ul class="menu">
             <li><a href="../">Главная</a></li>
             <li><a href="">Типы и структуры данных</a></li>
-            <li><a href="/">Встроенные функции</a></li>
+            <li><a href="../builtins">Встроенные функции</a></li>
             <li><a href="/">Дополнительно</a></li>
             <li><a href="/">Пакеты</a></li>
             <li><a href="/">История языка</a></li>
@@ -98,6 +99,55 @@
         класс (class), либо определив новый тип в модуле расширения (например, написанном на языке C). Система классов
         поддерживает наследование (одиночное и множественное) и метапрограммирование. Возможно наследование от большинства
         встроенных типов и типов расширений.
+    <div class="list-block">
+        <h2>Иерархия типов Python.</h2>
+        <ul class="list-level-1">
+            <li>None</li>
+            <li>Numbers</li>
+                <ul class="list-level-2">
+                    <li>Integral</li>
+                    <ul class="list-level-3">
+                        <li>Integer</li>
+                        <li>Booleans</li>
+                    </ul>
+                    <li>Real</li>
+                    <li>Complex</li>
+                </ul>
+            <li>Sequences</li>
+            <ul class="list-level-2">
+                <li>Immutable</li>
+                <ul class="list-level-3">
+                    <li>Strings</li>
+                    <li>Tuples</li>
+                    <li>Bytes</li>
+                </ul>
+                <li>Mutable</li>
+                <ul class="list-level-3">
+                    <li>Lists</li>
+                    <li>Byte Arrays</li>
+                </ul>
+            </ul>
+            <li>Set types</li>
+            <ul class="list-level-2">
+                <li>Sets</li>
+                <li>Frozen sets</li>
+            </ul>
+            <li>Mappings</li>
+            <ul class="list-level-2">
+                <li>Sets</li>
+                <li>Frozen sets</li>
+            </ul>
+            <li>Callable</li>
+            <li>Modules</li>
+        </ul>
+    </div>
+    <p>Словарь (ассоциативный массив), представляет собой коллекцию пар «ключ—значение»; значение может быть любого типа, ключ должен иметь хешируемый тип</p>
+    <p>Список, может содержать внутри себя различные типы данных</p>
+    <p>Последовательность целых чисел от какого-то одного значения до другого, обычно используется для повторения операции несколько раз при помощи for</p>
+    <p>Неупорядочное множество, не содержит дубликатов; может содержать внутри себя различные хешируемые типы данных</p>
+    <p>Кортеж. Может содержать внутри себя различные типы данных. Может использоваться в качестве неизменяемого списка и в качестве записей с неименованными <полями></полями></p>
+    <p>Неупорядочное множество, не содержит дубликатов; может содержать внутри себя различные хешируемые типы данных</p>
+    <p>Многоточие (элипсис). Используется в основном в NumPy для сокращённого задания среза многомерного массива. В самом Python присутствует для поддержки пользовательских типов и таких расширений, как NumPy</p>
 </article>
 </body>
 </html>

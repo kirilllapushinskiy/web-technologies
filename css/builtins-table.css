@@ -1,0 +1,37 @@
+#table-div {
+    float: right;
+    word-wrap: normal;
+    width: 100%;
+    padding: 20px 0;
+}
+
+table {
+    background-color: #226591;
+    table-layout: fixed;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table code {
+    background-color: steelblue;
+    margin: 2px;
+}
+
+table td {
+    border: 2px solid darkorange;
+    padding: 5px;
+}
+
+table th {
+    color: whitesmoke;
+    background-color: darkgoldenrod;
+    border: 2px solid darkgoldenrod;
+    padding: 7px;
+}
+
+table td:hover {
+    background-color: deepskyblue;
+}
