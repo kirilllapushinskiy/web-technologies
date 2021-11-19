@@ -136,6 +136,20 @@
                 </td>
             </tr>
         </table>
+        <script>
+            let rows = document.getElementsByTagName('tr')
+            let count = rows.length
+            let removeRow = function() {
+                rows[count - 1].style.display = 'none'
+                count -= 1
+            }
+            let insertRow = function() {
+                rows[count].style.display = ''
+                count += 1
+            }
+        </script>
+        <button name="button" onclick='removeRow()'>Удалить последнюю строку таблицы</button>
+        <button name="button" onclick='insertRow()'>Вернуть последнюю строку таблицы</button>
     </div>
         <ul class="image-list" id="image-list">
             <li>bool(x) - преобразование к типу bool, использующая стандартную процедуру проверки истинности. Если х является ложным или опущен, возвращает значение False, в противном случае она возвращает True.</li>
@@ -162,4 +176,14 @@
     </div>
 </footer>
 </body>
+<script>
+    let cells = document.getElementsByTagName('code')
+    for (let c in cells)
+        cells[c].addEventListener("mouseover", function( event ) {
+            event.target.style.backgroundColor = "#cca964";
+            setTimeout(function() {
+                event.target.style.backgroundColor = "";
+            }, 500);
+        }, false);
+</script>
 </html>

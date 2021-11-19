@@ -17,7 +17,7 @@
                 <li><a href="">Главная</a></li>
                 <li><a href="types">Типы и структуры данных</a></li>
                 <li><a href="builtins">Встроенные функции</a></li>
-                <li><a href="">Дополнительно</a></li>
+                <li><a href="other">Дополнительно</a></li>
                 <li><a href="">Пакеты</a></li>
                 <li><a href="">История языка</a></li>
             </ul>
@@ -35,5 +35,27 @@
             <p>2021 - <a href="https://vk.com/kirilllapushinskiy">kirilllapushinskiy</a></p>
         </div>
     </footer>
+    <div id="clock">
+        <p id="time"></p>
+        <p id="show-time">Наведите, чтобы показать время</p>
+    </div>
+    <script>
+        let clock = document.getElementById('clock')
+        let time = document.getElementById('time')
+        let showTime = document.getElementById('show-time')
+        clock.addEventListener("mouseover", function( event ) {
+            let date = new Date()
+            time.innerHTML = 'Сейчас ' + date.getHours() + ' часов ' + date.getMinutes() + ' минут';
+            showTime.style.display = 'none'
+            time.style.display = 'block'
+            setTimeout(function() {
+                showTime.style.display = 'block'
+                time.style.display = 'none'
+            }, 5000);
+        }, false);
+    </script>
 </body>
+<script>
+    window.alert("Автор сайта: Лапушинский Кирилл Романович гр. 4917");
+</script>
 </html>

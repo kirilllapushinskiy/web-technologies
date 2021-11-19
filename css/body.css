@@ -3,3 +3,22 @@ body {
     width: 63%;
     margin: 0 auto;
 }
+
+#clock {
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    right: 10px;
+    top: 5px
+}
+
+#clock p {
+    font-size: 20px;
+    font-family: monospace;
+    color: #E1FCFF;
+    text-align: end;
+}
+
+#clock #time {
+    display: none;
+}
